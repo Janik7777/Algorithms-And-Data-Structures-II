@@ -1,0 +1,94 @@
+% !TeX program = pdflatex
+
+\documentclass{scrartcl}
+
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{amsmath, amssymb, amsthm}
+\usepackage{fancyhdr}
+\usepackage{esvect}
+\usepackage{tikz}
+\usetikzlibrary{angles,quotes}
+\usepackage{xcolor}
+\usepackage{pdfpages}
+\usepackage{graphicx}
+\usepackage{listings}
+\usepackage{siunitx}
+% \usepackage{pgfplots}
+\usepackage{nowidow} % Hurenkinder und Schusterjungen verhindern
+\clubpenalty10000
+\widowpenalty10000
+%\displaywidowpenalty10000
+\emergencystretch 1.5em
+\setlength{\parindent}{0em}
+
+% Links in references
+\usepackage{hyperref}
+
+%img positioning
+\usepackage{float}
+
+\pagestyle{fancy}
+
+
+\definecolor{codegreen}{rgb}{0,0.6,0}
+\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+\definecolor{codepurple}{rgb}{0.58,0,0.82}
+\definecolor{backcolour}{rgb}{0.95,0.95,0.92}
+\lstdefinestyle{mystyle}{
+    backgroundcolor=\color{backcolour},   
+    commentstyle=\color{codegreen},
+    keywordstyle=\color{magenta},
+    numberstyle=\tiny\color{codegray},
+    stringstyle=\color{codepurple},
+    basicstyle=\ttfamily\footnotesize,
+    breakatwhitespace=false,         
+    breaklines=true,                 
+    captionpos=b,                    
+    keepspaces=true,                 
+    numbers=left,                    
+    numbersep=5pt,                  
+    showspaces=false,                
+    showstringspaces=false,
+    showtabs=false,                  
+    tabsize=2
+}
+\lstset{style=mystyle}
+
+%COMMENT MACROS
+\newtoggle{comments}
+\toggletrue{comments}
+\togglefalse{comments}
+\definecolor{COL_CL}{RGB}{0, 128, 235}
+\definecolor{COL_JB}{RGB}{0, 150, 64}
+\definecolor{COL_DS}{RGB}{235, 128, 0}
+\iftoggle{comments}{%
+\newcommand{\CL}[1] {\textcolor{COL_CL}{CL: #1} }
+\newcommand{\JB}[1] {\textcolor{COL_JB}{JB: #1} }
+\newcommand{\DS}[1] {\textcolor{COL_DS}{DS: #1} }
+}{%
+\newcommand{\CL}[1] {}
+\newcommand{\JB}[1] {}
+\newcommand{\DS}[1] {}
+}
+
+
+
+\begin{document}
+
+\rhead{Exercise Sheet 1}
+\lhead{Janik Schmid, Lutz Bader, Felix Hausberger}
+
+
+% set counter 1 lower than the exercise number to have a correct section counter
+\setcounter{section}{0}
+
+\section{Algorithms and Data Structures 2}
+
+\input{content/p1}
+\input{content/p2}
+\input{content/p3}
+\input{content/p4}
+
+
+\end{document}

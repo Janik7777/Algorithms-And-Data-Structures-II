@@ -1,0 +1,28 @@
+\subsection{Problem 1}
+
+\begin{enumerate}
+    \item \textbf{Give the important differences between a normal priority queue and an addressable priority queue.}
+    
+    Normal priority queues maintain a set $M$ of Elements with Keys under the following operations: \\
+    $M.build(\{e_1,...,e_n\}): M :=\{e_1,...,e_n\}$ \\
+    $M.insert(e): M := M \cup \{e\}$ \\
+    $M.min: return \; min \; M$ \\
+    $M.deleteMin: e:=min \; M; M :=M \ \{e\}; return \; e$
+
+    Addressable priority queues additionally support operations on arbitrary elements addressed by an element handle $h$: \\
+    $insert$: As before but return a handle to the element inserted. \\
+    $remove(h)$: Remove the element specified by handle $h$. \\
+    $decreaseKey(h,k)$: Decrease the key of the element specified by handle $h$ to $k$. \\
+    $Q_1.merge(Q_2): Q_1:= Q_1 \cup Q_2; Q_2 := \emptyset$.
+
+    \item \textbf{Compare the running time of a merge operation for pairing heaps and binary heaps.}
+    
+    Pairing Heap: merge $O(1)$ \\
+    The minPtr is updated and an addressable priority queue is simply attached to the forest.
+    
+    Binary Heap: merge
+    
+    
+
+\end{enumerate}
+
