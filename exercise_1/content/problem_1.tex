@@ -1,28 +1,24 @@
-\section{Problem 1}
+\subsection{Problem 1}
 
 \begin{enumerate}
     \item \textbf{Give the important differences between a normal priority queue and an addressable priority queue.}
     
-    Normal priority queues maintain a set $M$ of Elements with Keys under the following operations: \\
-    $M.build(\{e_1,...,e_n\}): M :=\{e_1,...,e_n\}$ \\
-    $M.insert(e): M := M \cup \{e\}$ \\
-    $M.min: return \; min \; M$ \\
-    $M.deleteMin: e:=min \; M; M :=M \ \{e\}; return \; e$
+    Normal priority queues maintain a set $M$ of elements offering the following operations: \\
+    $build(\{e_1,...,e_n\}): M := \{e_1,...,e_n\}$ \\
+    $insert(e): M := M \cup \{e\}$ \\
+    $min: return \; min \; M$ \\
+    $deleteMin: e := min \; M; M := M \backslash \{e\}; return \; e$
 
     Addressable priority queues additionally support operations on arbitrary elements addressed by an element handle $h$: \\
     $insert$: As before but return a handle to the element inserted. \\
     $remove(h)$: Remove the element specified by handle $h$. \\
-    $decreaseKey(h,k)$: Decrease the key of the element specified by handle $h$ to $k$. \\
-    $Q_1.merge(Q_2): Q_1:= Q_1 \cup Q_2; Q_2 := \emptyset$.
+    $decreaseKey(h: Handle, k: Key)$: Decrease the key of the element specified by handle $h$ to key $k$. \\
+    $merge(Q_2): Q_1:= Q_1 \cup Q_2; Q_2 := \emptyset$.
 
     \item \textbf{Compare the running time of a merge operation for pairing heaps and binary heaps.}
     
-    Pairing Heap: merge $O(1)$ \\
-    The minPtr is updated and an addressable priority queue is simply attached to the forest.
+    The \textit{Pairing Heap} can merge another \textit{Pairing Heap} in constant time $O(1)$ as only the minPtr is eventually updated and the addressable priority queue to be merged is simply attached to the forest.
     
-    Binary Heap: merge
-    
-    
-
+    The \textit{Binary Heap} has a complexity of $O(n+m)$ as it throws the n elements of the first and the $m$ elements of the second \textit{Binary Heap} together and then calls $build((\{e_1,...,e_{n+m}\}))$ again.
+   
 \end{enumerate}
-

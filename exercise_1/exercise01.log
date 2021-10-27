@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.10) (preloaded format=pdflatex 2021.10.27)  27 OCT 2021 23:26
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.10) (preloaded format=pdflatex 2021.10.27)  28 OCT 2021 00:01
 entering extended mode
 **./exercise01.tex
 (exercise01.tex
@@ -942,25 +942,31 @@ File: uesvect.fd
 tex.map}
 
 ] [2]) (content/problem_4.tex
-<images/exercise_4.jpeg, id=52, 2122.93124pt x 1456.44125pt>
+<images/exercise_4_task.PNG, id=49, 440.39531pt x 359.09157pt>
+File: images/exercise_4_task.PNG Graphic file (type png)
+<use images/exercise_4_task.PNG>
+Package pdftex.def Info: images/exercise_4_task.PNG  used on input line 6.
+(pdftex.def)             Requested size: 167.29967pt x 136.41237pt.
+ [3 <./images/exercise_4_task.PNG>]
+<images/exercise_4.jpeg, id=74, 2122.93124pt x 1456.44125pt>
 File: images/exercise_4.jpeg Graphic file (type jpg)
 <use images/exercise_4.jpeg>
-Package pdftex.def Info: images/exercise_4.jpeg  used on input line 25.
+Package pdftex.def Info: images/exercise_4.jpeg  used on input line 29.
 (pdftex.def)             Requested size: 418.25555pt x 286.92729pt.
 
-Overfull \hbox (27.37506pt too wide) in paragraph at lines 25--26
+Overfull \hbox (27.37506pt too wide) in paragraph at lines 29--30
  [] 
  []
 
-[3]) [4 <./images/exercise_4.jpeg>] (exercise01.aux)
+) [4 <./images/exercise_4.jpeg>] (exercise01.aux)
 Package rerunfilecheck Info: File `exercise01.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 30051 strings out of 478907
- 589521 string characters out of 2863666
- 1116179 words of memory out of 3000000
- 47391 multiletter control sequences out of 15000+600000
+ 30059 strings out of 478907
+ 589736 string characters out of 2863666
+ 1099176 words of memory out of 3000000
+ 47397 multiletter control sequences out of 15000+600000
  410808 words of font info for 57 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  110i,12n,108p,10607b,2395s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -972,9 +978,9 @@ s/cm/cmr10.pfb><D:/Programme/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><D:
 fonts/type1/public/amsfonts/cm/cmssbx10.pfb><D:/Programme/MiKTeX/fonts/type1/pu
 blic/amsfonts/cm/cmsy10.pfb><D:/Programme/MiKTeX/fonts/type1/public/amsfonts/cm
 /cmti10.pfb><D:/Programme/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt9.pfb>
-Output written on exercise01.pdf (4 pages, 2192943 bytes).
+Output written on exercise01.pdf (4 pages, 2213066 bytes).
 PDF statistics:
- 146 PDF objects out of 1000 (max. 8388607)
+ 149 PDF objects out of 1000 (max. 8388607)
  48 named destinations out of 1000 (max. 500000)
- 58 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 63 words of extra memory for PDF output out of 10000 (max. 10000000)
 
