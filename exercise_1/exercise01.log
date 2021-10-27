@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.10) (preloaded format=pdflatex 2021.10.27)  27 OCT 2021 22:19
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.10) (preloaded format=pdflatex 2021.10.27)  27 OCT 2021 23:26
 entering extended mode
 **./exercise01.tex
 (exercise01.tex
@@ -267,7 +267,7 @@ Class scrartcl Warning: Usage of package `fancyhdr' together
 (scrartcl)              `\addtokomafont' for the page style elements need
 (scrartcl)              explicite user intervention to work.
 (scrartcl)              Nevertheless, using requested
-(scrartcl)              package `fancyhdr' on input line 9.
+(scrartcl)              package `fancyhdr' on input line 7.
 
 (D:\Programme\MiKTeX\tex/latex/fancyhdr\fancyhdr.sty
 Package: fancyhdr 2021/01/28 v4.0.1 Extensive control of page headers and foote
@@ -827,27 +827,27 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 ) (exercise01.aux)
 \openout1 = `exercise01.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 77.
-LaTeX Font Info:    ... okay on input line 77.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 77.
-LaTeX Font Info:    ... okay on input line 77.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 77.
-LaTeX Font Info:    ... okay on input line 77.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 77.
-LaTeX Font Info:    ... okay on input line 77.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 77.
-LaTeX Font Info:    ... okay on input line 77.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 77.
-LaTeX Font Info:    ... okay on input line 77.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 77.
-LaTeX Font Info:    ... okay on input line 77.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 77.
-LaTeX Font Info:    ... okay on input line 77.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 77.
-LaTeX Font Info:    ... okay on input line 77.
-Package scrbase Info: activating english \contentsname on input line 77.
-Package scrbase Info: activating english \listfigurename on input line 77.
-Package scrbase Info: activating english \listtablename on input line 77.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+Package scrbase Info: activating english \contentsname on input line 53.
+Package scrbase Info: activating english \listfigurename on input line 53.
+Package scrbase Info: activating english \listtablename on input line 53.
 
 (D:\Programme\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -886,8 +886,8 @@ File: translations-basic-dictionary-english.trsl (english translation file `tra
 nslations-basic-dictionary')
 )
 Package translations Info: loading dictionary `translations-basic-dictionary' f
-or `english'. on input line 77.
-Package hyperref Info: Link coloring OFF on input line 77.
+or `english'. on input line 53.
+Package hyperref Info: Link coloring OFF on input line 53.
  (D:\Programme\MiKTeX\tex/latex/hyperref\nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
 
@@ -899,9 +899,9 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count335
 )
-LaTeX Info: Redefining \ref on input line 77.
-LaTeX Info: Redefining \pageref on input line 77.
-LaTeX Info: Redefining \nameref on input line 77.
+LaTeX Info: Redefining \ref on input line 53.
+LaTeX Info: Redefining \pageref on input line 53.
+LaTeX Info: Redefining \nameref on input line 53.
 
 (exercise01.out) (exercise01.out)
 \@outlinefile=\write4
@@ -914,7 +914,7 @@ Class scrartcl Info: loading recommended package `bookmark'.
 (scrartcl)           `bookmarkpackage=false' before \begin{document} and
 (scrartcl)           you can avoid this message adding:
 (scrartcl)             \usepackage{bookmark}
-(scrartcl)           before \begin{document} on input line 77.
+(scrartcl)           before \begin{document} on input line 53.
 
 (D:\Programme\MiKTeX\tex/latex/bookmark\bookmark.sty
 Package: bookmark 2020-11-06 v1.29 PDF bookmarks (HO)
@@ -922,9 +922,8 @@ Package: bookmark 2020-11-06 v1.29 PDF bookmarks (HO)
 (D:\Programme\MiKTeX\tex/latex/bookmark\bkm-pdftex.def
 File: bkm-pdftex.def 2020-11-06 v1.29 bookmark driver for pdfTeX (HO)
 \BKM@id=\count336
-)) (content/p1.tex
+)) (content/problem_1.tex
 LaTeX Font Info:    Trying to load font information for U+msa on input line 6.
-
 (D:\Programme\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
@@ -938,12 +937,12 @@ LaTeX Font Info:    Trying to load font information for U+esvect on input line
 
 (D:\Programme\MiKTeX\tex/latex/esvect\uesvect.fd
 File: uesvect.fd 
-)) (content/p2.tex)
-(content/p3.tex [1{C:/Users/Felix/AppData/Local/MiKTeX/pdftex/config/pdftex.map
-}
+)) (content/problem_2.tex)
+(content/problem_3.tex [1{C:/Users/Felix/AppData/Local/MiKTeX/pdftex/config/pdf
+tex.map}
 
-]) (content/p4.tex [2]
-<images/exercise_4.jpeg, id=36, 2122.93124pt x 1456.44125pt>
+] [2]) (content/problem_4.tex
+<images/exercise_4.jpeg, id=52, 2122.93124pt x 1456.44125pt>
 File: images/exercise_4.jpeg Graphic file (type jpg)
 <use images/exercise_4.jpeg>
 Package pdftex.def Info: images/exercise_4.jpeg  used on input line 25.
@@ -953,28 +952,29 @@ Overfull \hbox (27.37506pt too wide) in paragraph at lines 25--26
  [] 
  []
 
-) [3 <./images/exercise_4.jpeg>] (exercise01.aux)
+[3]) [4 <./images/exercise_4.jpeg>] (exercise01.aux)
 Package rerunfilecheck Info: File `exercise01.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 29759 strings out of 478907
- 586964 string characters out of 2863666
- 1001404 words of memory out of 3000000
- 47132 multiletter control sequences out of 15000+600000
- 410174 words of font info for 54 fonts, out of 8000000 for 9000
+ 30051 strings out of 478907
+ 589521 string characters out of 2863666
+ 1116179 words of memory out of 3000000
+ 47391 multiletter control sequences out of 15000+600000
+ 410808 words of font info for 57 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 110i,11n,108p,10607b,866s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 110i,12n,108p,10607b,2395s stack positions out of 5000i,500n,10000p,200000b,80000s
 <D:/Programme/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><D:/Programme/
 MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><D:/Programme/MiKTeX/fonts/typ
 e1/public/amsfonts/cm/cmmi8.pfb><D:/Programme/MiKTeX/fonts/type1/public/amsfont
-s/cm/cmr10.pfb><D:/Programme/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><D:
-/Programme/MiKTeX/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><D:/Programme/MiK
-TeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><D:/Programme/MiKTeX/fonts/type1/
-public/amsfonts/cm/cmti10.pfb>
-Output written on exercise01.pdf (3 pages, 2159112 bytes).
+s/cm/cmr10.pfb><D:/Programme/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><D:
+/Programme/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><D:/Programme/MiKTeX/
+fonts/type1/public/amsfonts/cm/cmssbx10.pfb><D:/Programme/MiKTeX/fonts/type1/pu
+blic/amsfonts/cm/cmsy10.pfb><D:/Programme/MiKTeX/fonts/type1/public/amsfonts/cm
+/cmti10.pfb><D:/Programme/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt9.pfb>
+Output written on exercise01.pdf (4 pages, 2192943 bytes).
 PDF statistics:
- 96 PDF objects out of 1000 (max. 8388607)
- 18 named destinations out of 1000 (max. 500000)
+ 146 PDF objects out of 1000 (max. 8388607)
+ 48 named destinations out of 1000 (max. 500000)
  58 words of extra memory for PDF output out of 10000 (max. 10000000)
 

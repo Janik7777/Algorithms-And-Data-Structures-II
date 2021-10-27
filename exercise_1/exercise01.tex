@@ -1,5 +1,3 @@
-% !TeX program = pdflatex
-
 \documentclass{scrartcl}
 
 \usepackage[utf8]{inputenc}
@@ -21,15 +19,12 @@
 %\displaywidowpenalty10000
 \emergencystretch 1.5em
 \setlength{\parindent}{0em}
-
 % Links in references
 \usepackage{hyperref}
-
-%img positioning
+% Image positioning
 \usepackage{float}
 
 \pagestyle{fancy}
-
 
 \definecolor{codegreen}{rgb}{0,0.6,0}
 \definecolor{codegray}{rgb}{0.5,0.5,0.5}
@@ -55,25 +50,6 @@
 }
 \lstset{style=mystyle}
 
-%COMMENT MACROS
-\newtoggle{comments}
-\toggletrue{comments}
-\togglefalse{comments}
-\definecolor{COL_CL}{RGB}{0, 128, 235}
-\definecolor{COL_JB}{RGB}{0, 150, 64}
-\definecolor{COL_DS}{RGB}{235, 128, 0}
-\iftoggle{comments}{%
-\newcommand{\CL}[1] {\textcolor{COL_CL}{CL: #1} }
-\newcommand{\JB}[1] {\textcolor{COL_JB}{JB: #1} }
-\newcommand{\DS}[1] {\textcolor{COL_DS}{DS: #1} }
-}{%
-\newcommand{\CL}[1] {}
-\newcommand{\JB}[1] {}
-\newcommand{\DS}[1] {}
-}
-
-
-
 \begin{document}
 
 \rhead{Exercise Sheet 1}
@@ -84,9 +60,9 @@
 
 \section{Algorithms and Data Structures 2 - Exercises 1}
 
-\input{content/p1}
-\input{content/p2}
-\input{content/p3}
-\input{content/p4}
+\input{content/problem_1}
+\input{content/problem_2}
+\input{content/problem_3}
+\input{content/problem_4}
 
 \end{document}
